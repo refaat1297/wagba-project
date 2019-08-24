@@ -1,0 +1,43 @@
+include pug/vars
+
+- var styleFile = 'index'
+
+doctype
+html
+	head 
+	include pug/head
+	body
+		
+		// Start Navbar
+		include pug/navbar.pug
+		// End Navbar
+		
+		// Start Index Page
+		div.container-fluid
+			div.section.text-center 
+				.overlay
+					.info
+						h1 وجــبــة
+						p خيارات لا محدودة من الأطباق الشهية
+			div.section.text-center 
+				.overlay
+					.info
+						h2 من نحن؟
+						p وجبة هو الأبلكيشن والموقع الإلكتروني المفضل لمحبي الطعام. نضع بين يديك العديد من الأطباق العالمية والمحلية
+			div.section.text-center 
+				.overlay
+					.info
+						h2 ما نقوم به؟
+						p وجبة هو أكبر خدمة طلب الطعام في مصر ويعمل في أكثر من 25 مدينة. يمكن للعملاء طلب أكثر من 200 وجبة بسهولة.
+			div.section.text-center 
+				.overlay
+					.info
+						h2 دورك قد بدأ..
+						p إختر العرض..أطلب وجبتك..إستمتع بطعامك  
+		// End Index Page	
+					
+		
+		
+		// Start Scripts
+		include pug/scripts 
+		// End Scripts
